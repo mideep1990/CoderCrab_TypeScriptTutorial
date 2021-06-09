@@ -17,5 +17,6 @@ console.log(obj._classVariable1);
 console.log(__someClass._classVariable2);
 console.log(obj.getSomeValue);
 
-console.log("test");
+console.log("test New One ");
+console.log("test New two ");
 
