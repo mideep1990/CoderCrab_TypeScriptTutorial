@@ -19,3 +19,5 @@ console.log(obj.getSomeValue);
 
 console.log("test");
 
+console.log("test123");
+
