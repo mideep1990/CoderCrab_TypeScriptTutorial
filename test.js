@@ -1,0 +1,15 @@
+"use strict";
+exports.__esModule = true;
+var obj = null;
+var userName = "Deepankar";
+var age = 30;
+var points = 12.50;
+var isActive = true;
+var someData;
+var someDataNew = obj;
+console.log("User Name - " + userName);
+console.log("Age - " + age);
+console.log("Points - " + points);
+console.log("Active- " + isActive);
+console.log("Some Data - " + someData);
+console.log("Some Data New - " + someDataNew);
