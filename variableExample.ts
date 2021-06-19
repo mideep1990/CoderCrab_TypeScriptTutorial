@@ -15,4 +15,4 @@ console.log(_globalVariable1);
 var obj:__someClass = new __someClass();
 console.log(obj._classVariable1);
 console.log(__someClass._classVariable2);
-console.log(obj.getSomeValue);
+console.log(obj.getSomeValue());

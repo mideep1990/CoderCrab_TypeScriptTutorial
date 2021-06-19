@@ -1,14 +1,14 @@
 "use strict";
 exports.__esModule = true;
-//identifier --- We are defining
-//Keyword --- Reserved word
 var __firstProg = /** @class */ (function () {
     function __firstProg() {
+        this.value = "Something in class";
     }
-    __firstProg.prototype.__printHello = function () {
-        console.log("Hello");
+    __firstProg.prototype.print = function () {
+        console.log("I am a class" + this.value);
     };
     return __firstProg;
 }());
 var obj = new __firstProg();
-obj.__printHello();
+obj.print();
+console.log(obj.value);

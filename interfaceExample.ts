@@ -5,6 +5,12 @@ interface IPerson {
     print: ()=>string 
  } 
  
+ var customer1:IPerson = {
+    Name :"Ashok",
+    Age : 23,
+    print:():string=>{return "Hello "+customer1.Name}
+ }
+
  var customer:IPerson = { 
     Name:"Deepankar",
     Age:34, 
@@ -12,6 +18,5 @@ interface IPerson {
  } 
  
  console.log("Customer Object ") 
- console.log(customer.Name) 
- console.log(customer.Age) 
- console.log(customer.print())  
+ console.log(customer1)
+ console.log(customer1.Name);
