@@ -20,3 +20,5 @@ console.log(obj.getSomeValue);
 console.log("test New One ");
 console.log("test New two ");
 
+console.log("test123");
+
